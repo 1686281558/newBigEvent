@@ -16,7 +16,6 @@ function getUserInfo () {
       if (res.status !== 0) {
         return layer.msg("用户信息获取失败");
       }
-      console.log(res);
       var name = res.data.nickname || res.data.username;
       var avatar = res.data.user_pic;
       if (avatar == null) {
