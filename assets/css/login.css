@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+body {
+  background: url(../images/login_bg.jpg) no-repeat center center / cover;
+}
+/* 表单区域 */
+.layui-card {
+  position: absolute;
+  width: 400px;
+  height: 310px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.layui-card-body {
+  padding-top: 0;
+}
+.layui-card-header {
+  height: 60px;
+  border: 0;
+  background: url(../images/login_title.png) no-repeat center center ;
+}
+.layui-form {
+  padding: 0 15px;
+}
+.layui-input-block {
+  position: relative;
+  margin-left: 0;
+}
+.layui-input-block input {
+  padding-left: 30px;
+}
+.linkReg,
+.linkLogin {
+  float: right;
+}
+.layui-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
