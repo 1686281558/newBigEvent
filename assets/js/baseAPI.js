@@ -9,7 +9,7 @@ $(function () {
     option.complete = function (res) {
       if (res.responseJSON.status !==0 &&res.responseJSON.message !=="获取用户基本信息成功！") {
         localStorage.removeItem("token");
-        location.href = "/login.html";
+        window.parent.location.href = "/login.html";
       }
     }
 

@@ -23,9 +23,9 @@
             个人中心
           </a>
           <dl class="layui-nav-child">
-            <dd><a href="">基本资料</a></dd>
-            <dd><a href="">更好头像</a></dd>
-            <dd><a href="">重置密码</a></dd>
+            <dd><a href="/user/user_info.html" target="fm"   class="user_info">基本资料</a></dd>
+            <dd><a href="/user/user_avatar.html" target="fm" class="user_avatar">更好头像</a></dd>
+            <dd><a href="/user/user.pwd.html" target="fm" class="user_pwd">重置密码</a></dd>
           </dl>
         </li>
         <li class="layui-nav-item">
@@ -41,25 +41,25 @@
           <span >欢迎 &nbsp;&nbsp;<span class="username"></span></span>
         </div>
         <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
-        <ul class="layui-nav layui-nav-tree ">
+        <ul class="layui-nav layui-nav-tree nav">
           <li class="layui-nav-item layui-this"><a href="/home/dashboard.html" target="fm">
             <span class="iconfont icon-home"></span>首页</a></li>
           <li class="layui-nav-item">
             <a href="javascript:;">
               <span class="iconfont icon-16"></span>文章管理</a>
             <dl class="layui-nav-child">
-              <dd><a href="javascript:;"><span class="iconfont icon-16"></span>文章类别</a></dd>
-              <dd><a href="javascript:;"><span class="iconfont icon-16"></span>文章列表</a></dd>
-              <dd><a href="javascript:;"><span class="iconfont icon-16"></span>发布文章</a></dd>
+              <dd><a href="/article/art_classify.html" target="fm"><span class="iconfont icon-16"></span>文章类别</a></dd>
+              <dd><a href="/article/art_list.html" target="fm" id="artList"><span class="iconfont icon-16"></span>文章列表</a></dd>
+              <dd><a href="/article/art_pub.html" target="fm"><span class="iconfont icon-16"></span>发布文章</a></dd>
             </dl>
           </li>
-          <li class="layui-nav-item">
+          <li class="layui-nav-item user">
             <a href="javascript:;">
               <span class="iconfont icon-user"></span>个人中心</a>
             <dl class="layui-nav-child">
-              <dd><a href="/user/user_info.html" target="fm"><span class="iconfont icon-pinglun"></span>基本资料</a></dd>
-              <dd><a href="/user/user_avatar.html" target="fm"><span class="iconfont icon-pinglun"></span>更换头像</a></dd>
-              <dd><a href="/user/user.pwd.html" target="fm"><span class="iconfont icon-pinglun"></span>重置密码</a></dd>
+              <dd ><a href="/user/user_info.html" target="fm" id="info"><span class="iconfont icon-pinglun"></span>基本资料</a></dd>
+              <dd><a href="/user/user_avatar.html" target="fm" id="avatar"><span class="iconfont icon-pinglun"></span>更换头像</a></dd>
+              <dd><a href="/user/user.pwd.html" target="fm" id="pwd"><span class="iconfont icon-pinglun"></span>重置密码</a></dd>
             </dl>
           </li>
         </ul>

@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  padding: 15px;
+  background-color: #ccc;
+}
+.layui-input-block-btn {
+  margin-left: 0;
+}
